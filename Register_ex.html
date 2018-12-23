@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Register</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <h1>Register</h1>
+
+        <form>
+            <!-- First line-->
+            <label for="firstname">First Name:</label>
+            <input name="firstname" id="firstname" type="text" placeholder="John" required>
+
+            <label for="lastname">Last Name:</label>
+            <input name="lastname" id="lastname" type="text" placeholder="Smith" required>
+
+            <!-- Second line-->
+        <div>
+            <label for="male">Male</label>
+            <input name="genderChoice" id="male" type="radio" value="MALE">
+
+            <label for="female">Female</label>
+            <input name="genderChoice" id="female" type="radio" value="FEMALE">
+
+            <label for="other">Other</label>
+            <input name="genderChoice" id="other" type="radio" value="OTHER"> <br>
+        </div>
+
+            <!-- Third line-->
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="your email" required>
+
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="your password" minlength="5" maxlength="10" 
+            required title="Password must be between 5 and 10 characters"> <br>
+        </div>
+
+            <!-- Fourth line-->
+        <div>
+            <label for="birthday">Birthday:</label>
+
+            <select name="Month" id="birthday">
+                <option value="Month">Month</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+            </select>
+
+            <select name="Day" id="birthday">
+                <option value="Day">Day</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+            </select>
+            
+            <select name="Year" id="birthday">
+                <option value="Year">Year</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option> 
+            </select>
+
+        </div>
+
+            <!-- Fifth line-->
+        <div>
+            <label for="t&c">I agree to the terms and conditions</label>
+            <input id="t&c" type="checkbox" required> <br>
+        </div>
+            <!-- Last line-->
+        <button>Submit</button>
+        </form>
+
+        <script src="" async defer></script>
+    </body>
+</html>
