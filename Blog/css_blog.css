@@ -1,0 +1,35 @@
+body {
+    width: 50%;
+    border: 20px solid #bdc3c7;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Source Sans Pro';
+}
+
+/*date*/
+h4 {
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #3498db;
+}
+
+/*article title*/
+h2 {
+    color: #2c3e50;
+}
+
+/*every first para*/
+h2 + p {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+/*smol separating line*/
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

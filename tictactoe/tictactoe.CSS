@@ -1,0 +1,37 @@
+/* tr {
+    length: 100px;
+    width: 100px;
+    border: 5px solid black;
+} */
+
+h1 {
+    width: max-content;
+    margin: 50px auto;
+   
+}
+
+
+table {
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.col2 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.row2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+
