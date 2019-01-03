@@ -1,17 +1,18 @@
 body {
     width: 50%;
+    max-width: 700px;
     border: 20px solid #bdc3c7;
-    margin: auto;
+    margin: 20px auto;
     padding: 20px;
     font-family: 'Source Sans Pro';
 }
 
 /*date*/
-h4 {
+.date {
     margin-top: 0px;
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
     color: #3498db;
 }
 
@@ -27,7 +28,7 @@ h2 + p {
 }
 
 /*smol separating line*/
-hr.style-six {
+hr {
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
